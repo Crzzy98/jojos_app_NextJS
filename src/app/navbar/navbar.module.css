@@ -1,10 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   
-  .cursor-img {
+  .cursorImg {
     justify-content: center;
     width: 200px;
     height: 200px;
@@ -23,7 +18,7 @@
     top: 0;
     left: 0;
     z-index: 1;
-    cursor: url("../../assets/cursor/str_plat_2.png"), auto;
+    /* cursor: url("../../assets/cursor/str_plat_2.png"), auto; */
   }
   
   /* Navbar styles */
@@ -67,7 +62,7 @@
     left: 0;
   }
   
-  .nav-img {
+  .navImg {
     margin-right: 20px;
     /* Spacing between links */
     transition: transform 0.2s ease-in-out;
@@ -78,7 +73,7 @@
     /* Adjust the duration as needed */
   }
   
-  .nav-img:hover {
+  .navImg:hover {
     transform: scale(1.5);
     /* Enlarge the list item on hover */
     border-color: yellow;
@@ -118,7 +113,7 @@
     /* Adjust the duration as needed */
   }
   
-  .login-status {
+  .loginStatus {
     display: flex;
     flex-direction: row;
     background-color: rgb(68, 80, 68);
@@ -135,12 +130,12 @@
     padding-top: 2px;
   }
   
-  .login-status h4 {
+  .loginStatus h4 {
     color: rgb(16, 244, 16);
     padding-right: 5px;
   }
   
-  .login-status img {
+  .loginStatus img {
     width: 15%;
     /* Make the image 50% as big as its container */
     height: auto;
@@ -148,17 +143,17 @@
     padding-bottom: 2px;
   }
   
-  .wavy-text {
+  .wavyText {
     position: relative;
     margin-top: 20px;
     display: flex;
   }
   
-  .logo-text {
+  .logoText {
     display: flex;
   }
   
-  .logo-letter {
+  .logoLetter {
     font-size: 1.5em;
     position: relative;
     display: inline-block;
@@ -250,17 +245,17 @@
       font-size: 50px;
     }
   
-    .nav-img {
+    .navImg {
       max-width: 20px;
       height: auto;
       margin-right: 10px;
     }
   
-    .wavy-text {
+    .wavyText {
       margin-top: 60px;
     }
   
-    .logo-letter {
+    .logoLetter {
       font-size: 0.8em;
       position: relative;
       display: inline-block;
@@ -307,7 +302,7 @@
       /* Add bottom margin for list items */
     }
   
-    .nav-img {
+    .navImg {
       max-width: 100%;
       /* Adjust image width to fit container */
       height: auto;
@@ -328,7 +323,7 @@
       margin-bottom: 250px;
     }
   
-    .login-status {
+    .loginStatus {
       margin-top: 450px;
       /* Adjust margin top for login status */
       position: fixed;
@@ -336,14 +331,14 @@
       left: 0;
     }
   
-    .wavy-text {
+    .wavyText {
       margin-top: 20px;
       /* Adjust margin top for wavy text */
       display: flex;
       flex-direction: column;
     }
   
-    .wavy-text div {
+    .wavyText div {
       font-size: 1em;
       /* Adjust font size for wavy text */
     }
@@ -351,13 +346,13 @@
   
   /* Start Media queries for login status */
   @media screen and (max-width: 2900px) {
-    .login-status {
+    .loginStatus {
       margin-top: 140px;
     }
   }
   
   @media screen and (max-width: 2630px) {
-    .login-status {
+    .loginStatus {
       margin-top: 238px;
     }
   }

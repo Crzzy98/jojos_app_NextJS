@@ -29,7 +29,6 @@ export default function Navbar() {
             </li>
             <div className={styles.logo}>
               <img
-                className={styles.navLogo}
                 src="../../assets/logos/Jojos_logo_japanese.jpg"
                 alt="Jojo's logo"
               />
